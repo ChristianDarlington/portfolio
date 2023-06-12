@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { AiOutlineHome, AiOutlineProject, AiOutlineMail, AiOutlineInfoCircle } from 'react-icons/ai'
 import { BsPerson } from 'react-icons/bs'
 import {FiMenu} from 'react-icons/fi'
+import Resume from '../Resume.pdf'
+
 
 
 
@@ -66,8 +68,8 @@ const Sidebar = () => {
             <span className="pl-4">Projects</span>
           </a>
           <a
-            href="#main"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            href={Resume}
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"           
           >
             <BsPerson size={20} />
             <span className="pl-4">Resume</span>
@@ -96,7 +98,7 @@ const Sidebar = () => {
             >
               <AiOutlineProject size={20} />
             </a>
-            <a href="#main" className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in cursor-pointer duration-300">
+            <a href={Resume} target='_blank' rel='noreferrer' className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in cursor-pointer duration-300">
               <BsPerson size={20} />
             </a>
             <a

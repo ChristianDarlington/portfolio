@@ -24,7 +24,7 @@ const Content = () => {
 
             <p className="pb-4 pt-2 text-white text-center">React Js</p>
 
-            <a href="https://github.com/ChristianDarlington/sports-betting">
+            <a href="https://github.com/ChristianDarlington/sports-betting" target='_blank' rel='noreferrer'>
               <p className="text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer">Github</p>
             </a>
           </div>
@@ -36,7 +36,7 @@ const Content = () => {
 
             <p className="pb-4 pt-2 text-white text-center">React Js</p>
 
-            <a href="https://github.com/ChristianDarlington/trending-movies-app">
+            <a href="https://github.com/ChristianDarlington/trending-movies-app" target='_blank' rel='noreferrer'>
               <p className="text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer">Github</p>
             </a>
           </div>
@@ -48,7 +48,7 @@ const Content = () => {
 
             <p className="pb-4 pt-2 text-white text-center">React Js</p>
 
-            <a href="https://github.com/ChristianDarlington/react-score-app">
+            <a href="https://github.com/ChristianDarlington/react-score-app" target='_blank' rel='noreferrer'>
               <p className="text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer">Github</p>
             </a>
           </div>
@@ -60,7 +60,7 @@ const Content = () => {
 
             <p className="pb-4 pt-2 text-white text-center">React Js</p>
 
-            <a href="https://github.com/grammerjam/te-main">
+            <a href="https://github.com/grammerjam/te-main" target='_blank' rel='noreferrer'>
               <p className="text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer">Github</p>
             </a>
           </div>
