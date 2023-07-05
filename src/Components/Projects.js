@@ -3,13 +3,13 @@ import BettingApp from '../Assets/BettingApp.png'
 import TrendingMovie from '../Assets/TrendingMovie.png'
 import ScoreApp from '../Assets/ScoreApp.png'
 import ScreenShotOne from '../Assets/Screen Shot 2023-05-22 at 1.23.53 PM.png'
-import ScreenShotTwo from '../Assets/Screen Shot 2023-05-22 at 1.24.02 PM.png'
+
 
 
 const Content = () => {
   return (
-    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Projects</h1>
+    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-20">
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] tracking-widest">Projects</h1>
       <p className="text-center py-8 text-lg text-[#001b5e]">
       In my project section, I have highlighted my experience with React.js, 
       a widely used JavaScript library for building interactive user interfaces. 
