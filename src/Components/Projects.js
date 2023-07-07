@@ -25,7 +25,7 @@ const Content = () => {
             <p className="pb-4 pt-2 text-white text-center">React Js</p>
 
         <div className='flex space-x-4 pl-4'>
-            <a href="https://admirable-pothos-436a51.netlify.app/" target='_blank' rel='noreferrer'>
+            <a href="https://moonlit-praline-1cc497.netlify.app/" target='_blank' rel='noreferrer'>
               <p className=" p-2 rounded-lg bg-white text-gray-800 font-bold cursor-pointer">Demo</p>
             </a>
             <a href="https://github.com/ChristianDarlington/career-finder" target='_blank' rel='noreferrer'>
